@@ -153,7 +153,7 @@ LOCAL_C_INCLUDES                := $(libmm-venc-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES   := $(libmm-venc-add-dep)
 
 LOCAL_PRELINK_MODULE      := false
-LOCAL_SHARED_LIBRARIES    := liblog libutils libbinder libcutils \
+LOCAL_SHARED_LIBRARIES    := liblog libutils libbinder_vendor libcutils \
                              libc2dcolorconvert libdl libgui
 LOCAL_SHARED_LIBRARIES    += libHevcSwEncoder
 LOCAL_STATIC_LIBRARIES    := libOmxVidcCommon
